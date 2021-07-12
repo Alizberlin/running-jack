@@ -1,0 +1,231 @@
+*
+{
+    margin: 0;
+}
+.container
+{
+    height: 100vh;
+    background-image: url(images/toronto.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+h2
+{
+    color: rgb(163, 15, 84);
+    position: absolute;
+    top: 30%;
+    left: 40%;
+    text-shadow: 2px 2px 3px rgb(131, 126, 126);
+}
+.container img
+{
+    position: absolute;
+    left: 50%;
+    top: 54%;
+    transform: translateX(-50%);
+    clip-path: inset(10px 750px 130px 0px);
+    /****************top right bottom left*/
+    animation: runningback 4.8s ease-in infinite;
+}
+@keyframes runner {
+    0%
+    {
+        clip-path: inset(10px 750px 130px 0px);
+    }
+    12%
+    {
+        clip-path: inset(10px 750px 130px 0px);
+    }
+    12.5%
+    {
+        clip-path: inset(10px 650px 130px 100px);
+    }
+    24%
+    {
+        clip-path: inset(10px 650px 130px 100px);
+    }
+    25%
+    {
+        clip-path: inset(10px 530px 130px 220px);
+    }
+    37%
+    {
+        clip-path: inset(10px 530px 130px 220px);
+    }
+    37.5%
+    {
+        clip-path: inset(10px 430px 130px 324px);
+    }
+    49%
+    {
+        clip-path: inset(10px 430px 130px 324px);
+
+    }
+    50%
+    {
+        clip-path: inset(10px 330px 130px 430px);
+    }
+    62%
+    {
+        clip-path: inset(10px 330px 130px 430px);
+    }
+    62.5%
+    {
+        clip-path: inset(10px 230px 130px 530px);
+    }
+    74%
+    {
+        clip-path: inset(10px 230px 130px 530px);
+    }
+    75%
+    {
+        clip-path: inset(10px 110px 130px 640px);
+    }
+    87%
+    {
+        clip-path: inset(10px 110px 130px 640px);
+    }
+    87.5%
+    {
+        clip-path: inset(10px 0px 130px 760px);
+    }
+    100%
+    {
+        clip-path: inset(10px 0px 130px 760px);
+    }
+}
+
+@keyframes runningback {
+    
+    0%
+    {
+        clip-path: inset(10px 750px 130px 0px);
+    }
+    6%
+    {
+        clip-path: inset(10px 750px 130px 0px);
+    }
+    6.25%
+    {
+        clip-path: inset(10px 640px 130px 120px);
+    }
+    12%
+    {
+        clip-path: inset(10px 650px 130px 120px);
+    }
+    12.5%
+    {
+        clip-path: inset(10px 530px 130px 220px);
+    }
+    18%
+    {
+        clip-path: inset(10px 530px 130px 220px);
+    }
+    18.75%
+    {
+        clip-path: inset(10px 430px 130px 324px);
+    }
+    24.5%
+    {
+        clip-path: inset(10px 430px 130px 324px);
+    }
+    25%
+    {
+        clip-path: inset(10px 330px 130px 430px);
+    }
+    31%
+    {
+        clip-path: inset(10px 330px 130px 430px);
+    }
+    31.25%
+    {
+        clip-path: inset(10px 230px 130px 530px);
+    }
+    37%
+    {
+        clip-path: inset(10px 230px 130px 530px);
+    }
+    37.25%
+    {
+        clip-path: inset(10px 110px 130px 640px);
+    }
+    43%
+    {
+        clip-path: inset(10px 110px 130px 640px);
+    }
+    43.75%
+    {
+        clip-path: inset(10px 0px 130px 760px);
+    }
+    49.9%
+    {
+        clip-path: inset(10px 0px 130px 760px);
+        top: 54%;
+    }
+    50%
+    {
+        clip-path: inset(140px 0px 0px 760px);
+        top: 40%;
+    }
+    56%
+    {
+        clip-path: inset(140px 0px 0px 760px);
+    }
+    56.25%
+    {
+        clip-path: inset(140px 100px 0px 650px);
+    }
+    62%
+    {
+        clip-path: inset(140px 100px 0px 650px);
+    }
+    62.25%
+    {
+        clip-path: inset(140px 220px 0px 530px);
+    }
+    68%
+    {
+        clip-path: inset(140px 220px 0px 530px);
+    }
+    68.75%
+    {
+        clip-path: inset(140px 330px 0px 420px);
+    }
+    74.5%
+    {
+        clip-path: inset(140px 330px 0px 420px);
+    }
+    75%
+    {
+        clip-path: inset(140px 430px 0px 320px);
+    }
+    81%
+    {
+        clip-path: inset(140px 430px 0px 320px);
+    }
+    81.25%
+    {
+        clip-path: inset(140px 530px 0px 220px);
+    }
+    87%
+    {
+        clip-path: inset(140px 530px 0px 220px);
+    }
+    87.5%
+    {
+        clip-path: inset(140px 650px 0px 100px);
+    }
+    93%
+    {
+        clip-path: inset(140px 650px 0px 100px);
+    }
+    93.75%
+    {
+        clip-path: inset(140px 760px 0px 0px);
+    }
+    100%
+    {
+        clip-path: inset(140px 760px 0px 0px);
+        top: 40%;
+    }
+}
